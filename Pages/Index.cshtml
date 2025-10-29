@@ -1,0 +1,54 @@
+@page
+@model Monii.com.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container text-center mt-5">
+    <h2 class="mb-4 fw-bold">Shop by Category</h2>
+
+    <div class="row justify-content-center">
+        <!-- 👕 Top Category -->
+        <div class="col-md-3 col-6 mb-4">
+            <a asp-page="/Products" asp-route-category="Top" class="text-decoration-none text-dark">
+                <div class="card shadow-sm border-0">
+                    <!-- 👇 PUT CATEGORY IMAGE HERE -->
+                    <img src="/Images/top logo.png" class="card-img-top category-img" alt="Top">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Top</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 👖 Bottom Category -->
+        <div class="col-md-3 col-6 mb-4">
+            <a asp-page="/Products" asp-route-category="Bottom" class="text-decoration-none text-dark">
+                <div class="card shadow-sm border-0">
+                    <img src="/Images/bottom logo.png" class="card-img-top category-img" alt="Bottom">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Bottom</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<style>
+    .category-img {
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover .category-img {
+        transform: scale(1.05);
+    }
+
+    .card {
+        border-radius: 10px;
+    }
+</style>

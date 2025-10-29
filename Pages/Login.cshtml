@@ -1,0 +1,24 @@
+﻿@page
+@model Monii.com.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<form method="post">
+    <div class="mb-3">
+        <label>Email:</label>
+        <input type="email" asp-for="Input.Email" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label>Password:</label>
+        <input type="password" asp-for="Input.Password" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger mt-3">@Model.ErrorMessage</div>
+}

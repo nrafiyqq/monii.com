@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/obj/Release/net8.0/scopedcss/projectbundle/Monii.com.bundle.scp.css",
+      "PackagePath": "staticwebassets/Monii.com.bundle.scp.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/BOT/beige long.jpg",
+      "PackagePath": "staticwebassets/Images/BOT/beige long.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/BOT/black long.jpg",
+      "PackagePath": "staticwebassets/Images/BOT/black long.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/BOT/brown long.jpg",
+      "PackagePath": "staticwebassets/Images/BOT/brown long.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/BOT/camo shorts.jpg",
+      "PackagePath": "staticwebassets/Images/BOT/camo shorts.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/BOT/carpenter shorts green.jpg",
+      "PackagePath": "staticwebassets/Images/BOT/carpenter shorts green.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/BOT/carpenter shorts.jpg",
+      "PackagePath": "staticwebassets/Images/BOT/carpenter shorts.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/BOT/khaki long.jpg",
+      "PackagePath": "staticwebassets/Images/BOT/khaki long.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/BOT/pattern shorts.jpg",
+      "PackagePath": "staticwebassets/Images/BOT/pattern shorts.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/TOP/blackpink_hoodie.jpg",
+      "PackagePath": "staticwebassets/Images/TOP/blackpink_hoodie.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/TOP/blackwhite flannel.jpg",
+      "PackagePath": "staticwebassets/Images/TOP/blackwhite flannel.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/TOP/blue casual.jpg",
+      "PackagePath": "staticwebassets/Images/TOP/blue casual.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/TOP/bluered hoodie.jpg",
+      "PackagePath": "staticwebassets/Images/TOP/bluered hoodie.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/TOP/brown hoodie.jpg",
+      "PackagePath": "staticwebassets/Images/TOP/brown hoodie.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/TOP/camo hoodie.jpg",
+      "PackagePath": "staticwebassets/Images/TOP/camo hoodie.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/TOP/jeans casual.jpg",
+      "PackagePath": "staticwebassets/Images/TOP/jeans casual.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/TOP/pattern flannel.jpg",
+      "PackagePath": "staticwebassets/Images/TOP/pattern flannel.jpg"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/acc logo.png",
+      "PackagePath": "staticwebassets/Images/acc logo.png"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/bottom logo.png",
+      "PackagePath": "staticwebassets/Images/bottom logo.png"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/Images/top logo.png",
+      "PackagePath": "staticwebassets/Images/top logo.png"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/home/afiqakim/DanielShop/Monii.com/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.Monii.com.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.Monii.com.props",
+      "PackagePath": "build\\Monii.com.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.Monii.com.props",
+      "PackagePath": "buildMultiTargeting\\Monii.com.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.Monii.com.props",
+      "PackagePath": "buildTransitive\\Monii.com.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
