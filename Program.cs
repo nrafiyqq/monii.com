@@ -3,11 +3,12 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ✅ Register DbContext
+// ✅ Register DbContext (Use PostgreSQL on Render, or MySQL if you prefer)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(8, 0, 36))
+        new MySqlServerVersion(new Version(8, 0, 36)),
+        mySqlOptions => mySqlOptions.EnableRetryOnFailure() // 🔁 auto-retry transient errors
     )
 );
 
@@ -23,14 +24,14 @@ builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
-// ✅ Auto-run migrations on startup (important for Render or VPS)
+// ✅ Automatically apply migrations at startup
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    db.Database.Migrate();  // Creates tables if not exist
+    db.Database.Migrate();
 }
 
-// ✅ Configure HTTP pipeline
+// ✅ Configure middleware
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
@@ -41,13 +42,9 @@ else
     app.UseHsts();
 }
 
-// Optional if using HTTPS reverse proxy (Render usually auto-manages)
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
-// ✅ Must come BEFORE UseRouting
 app.UseSession();
-
 app.UseRouting();
 app.UseAuthorization();
 
