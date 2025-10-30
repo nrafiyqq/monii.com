@@ -3,12 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ✅ Register DbContext (Use PostgreSQL on Render, or MySQL if you prefer)
+// ✅ Register DbContext (PostgreSQL version for Render)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(
+    options.UseNpgsql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(8, 0, 36)),
-        mySqlOptions => mySqlOptions.EnableRetryOnFailure() // 🔁 auto-retry transient errors
+        npgsqlOptions => npgsqlOptions.EnableRetryOnFailure() // 🔁 Auto-retry transient connection errors
     )
 );
 
@@ -28,7 +27,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    db.Database.Migrate();
+    db.Database.Migrate(); // Creates/migrates PostgreSQL tables if not exist
 }
 
 // ✅ Configure middleware
