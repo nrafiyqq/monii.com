@@ -1,11 +1,9 @@
-﻿@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Http
 @inject IHttpContextAccessor HttpContextAccessor
 
 @{
     var userName = HttpContextAccessor.HttpContext?.Session.GetString("UserName");
 }
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +15,8 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Monii.com.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body style="background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); min-height: 100vh;">
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -39,7 +38,12 @@
                     </ul>
 
                     <!-- Right Side Buttons -->
-                    <div class="right">
+                    <div class="d-flex align-items-center gap-2">
+                        <!-- Cart Button -->
+                        <a class="btn btn-outline-dark position-relative" asp-page="/Cart">
+                            🛒 Cart
+                        </a>
+
                         @if (string.IsNullOrEmpty(userName))
                         {
                             <!-- Not logged in -->
@@ -53,7 +57,6 @@
                             <a class="btn btn-danger" asp-page="/Logout">Logout</a>
                         }
                     </div>
-
                 </div>
             </div>
         </nav>
@@ -68,13 +71,3 @@
     <footer class="border-top footer text-muted">
         <div class="container text-center">
             &copy; 2025 - Monii.com - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
-</html>
