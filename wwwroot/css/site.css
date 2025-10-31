@@ -21,21 +21,32 @@ html {
   border-bottom: 1px solid #ddd;
 }
 
+/* Card image corners */
 .card img {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
 
+/* Card title */
 .card-title {
   font-size: 1.1rem;
   font-weight: 600;
+  color: #0d47a1; /* Deep navy-blue for text */
 }
 
+/* Primary buttons */
 .btn-primary {
-  background-color: #007bff;
+  background-color: #0d47a1; /* Deep navy-blue */
   border: none;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+.btn-primary:hover {
+  background-color: #1565c0; /* Lighter blue on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 
 .nav-link {
   font-weight: bold;
