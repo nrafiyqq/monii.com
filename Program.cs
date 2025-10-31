@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ✅ Register DbContext (PostgreSQL version for Render)
+// ✅ Register DbContext (PostgreSQL for Render)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        npgsqlOptions => npgsqlOptions.EnableRetryOnFailure() // 🔁 Auto-retry transient connection errors
+        npgsqlOptions => npgsqlOptions.EnableRetryOnFailure() // Auto-retry transient errors
     )
 );
 
@@ -23,12 +23,12 @@ builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
+// ✅ Automatically apply EF Core migrations on startup
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    db.Database.EnsureCreated(); // ✅ Automatically creates tables if missing (no migration needed)
+    db.Database.Migrate(); // <-- Use Migrate() instead of EnsureCreated()
 }
-
 
 // ✅ Configure middleware
 if (app.Environment.IsDevelopment())
