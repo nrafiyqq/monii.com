@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="~/Monii.com.styles.css" asp-append-version="true" />
 </head>
 <body style="background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); min-height: 100vh;">
+<div id="particles-js"></div>
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -90,5 +91,13 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script>
+  particlesJS.load('particles-js', '/particles.json', function() {
+    console.log('Particles.js loaded');
+  });
+</script>
+
 </body>
 </html>
