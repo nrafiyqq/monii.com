@@ -1,8 +1,18 @@
 @using Microsoft.AspNetCore.Http
+@using Monii.com.Data
+@using System.Linq
 @inject IHttpContextAccessor HttpContextAccessor
+@inject ApplicationDbContext Db
 
 @{
     var userName = HttpContextAccessor.HttpContext?.Session.GetString("UserName");
+    var userId = HttpContextAccessor.HttpContext?.Session.GetInt32("UserID");
+    int cartCount = 0;
+
+    if (userId != null)
+    {
+        cartCount = Db.Carts.Count(c => c.UserID == userId);
+    }
 }
 
 <!DOCTYPE html>
@@ -42,6 +52,13 @@
                         <!-- Cart Button -->
                         <a class="btn btn-outline-dark position-relative" asp-page="/Cart">
                             🛒 Cart
+                            @if (cartCount > 0)
+                            {
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    @cartCount
+                                    <span class="visually-hidden">items in cart</span>
+                                </span>
+                            }
                         </a>
 
                         @if (string.IsNullOrEmpty(userName))
@@ -62,12 +79,4 @@
         </nav>
     </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container text-center">
-            &copy; 2025 - Monii.com - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    <div class
