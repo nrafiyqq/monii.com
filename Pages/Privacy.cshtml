@@ -1,8 +1,61 @@
-﻿@page
-@model PrivacyModel
+@page
+@model Monii.com.Pages.PrivacyModel
 @{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div class="container mt-5 mb-5">
+    <h2 class="text-center mb-4">Privacy Policy</h2>
+
+    <div class="card shadow-sm border-0 p-4">
+        <p>
+            At <strong>Monii.com</strong>, your privacy is important to us. 
+            This Privacy Policy explains how we collect, use, and protect your information when you use our website and services.
+        </p>
+
+        <h4>1. Information We Collect</h4>
+        <ul>
+            <li>Personal details such as name, email, and contact information during registration.</li>
+            <li>Order and payment details for processing your purchases.</li>
+            <li>Website usage data to improve our services and user experience.</li>
+        </ul>
+
+        <h4>2. How We Use Your Information</h4>
+        <ul>
+            <li>To manage your account and orders.</li>
+            <li>To send important updates about your transactions or our services.</li>
+            <li>To improve site performance and user experience.</li>
+        </ul>
+
+        <h4>3. Data Protection</h4>
+        <p>
+            We use secure systems and encrypted communication to safeguard your information. 
+            Passwords are hashed before being stored in our database.
+        </p>
+
+        <h4>4. Sharing of Data</h4>
+        <p>
+            We do not sell or share your personal data with third parties unless required by law or necessary to complete a transaction.
+        </p>
+
+        <h4>5. Cookies</h4>
+        <p>
+            Our website may use cookies to personalize your experience. You can disable cookies in your browser settings, but some features may not work properly.
+        </p>
+
+        <h4>6. Changes to This Policy</h4>
+        <p>
+            We may update this policy from time to time. The updated version will be posted on this page with a new effective date.
+        </p>
+
+        <h4>7. Contact Us</h4>
+        <p>
+            If you have any questions about this Privacy Policy, please contact us at 
+            <a href="mailto:support@monii.com">support@monii.com</a>.
+        </p>
+
+        <p class="text-muted mt-4">
+            <em>Last updated: @DateTime.Now.ToString("MMMM dd, yyyy")</em>
+        </p>
+    </div>
+</div>
