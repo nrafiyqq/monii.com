@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Monii.com.Data;
 using Monii.com.Models;
 using System.Collections.Generic;
@@ -23,23 +24,23 @@ namespace Monii.com.Pages
         {
             CurrentCategory = category ?? "All";
 
+            // ✅ Safer query for PostgreSQL (case-insensitive)
             Products = _context.Products
-                .Where(p => category == null || p.Category.ToLower() == category.ToLower())
+                .AsNoTracking()
+                .Where(p => category == null ||
+                            EF.Functions.ILike(p.Category, category))
                 .ToList();
         }
 
         // ✅ Handles Add to Cart button click
         public IActionResult OnPostAddToCart(int productId)
         {
-            // Check if user is logged in
             var userId = HttpContext.Session.GetInt32("UserID");
             if (userId == null)
             {
-                // Not logged in → redirect to Login page
                 return RedirectToPage("/Login");
             }
 
-            // Check if product exists
             var product = _context.Products.FirstOrDefault(p => p.ProductID == productId);
             if (product == null)
             {
@@ -47,9 +48,8 @@ namespace Monii.com.Pages
                 return RedirectToPage("/Products", new { category = CurrentCategory });
             }
 
-            // Check if item already exists in cart
-            var existing = _context.Carts.FirstOrDefault(
-                c => c.UserID == userId && c.ProductID == productId);
+            var existing = _context.Carts
+                .FirstOrDefault(c => c.UserID == userId && c.ProductID == productId);
 
             if (existing == null)
             {
