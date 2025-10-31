@@ -23,12 +23,12 @@ builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
-// ✅ Automatically apply migrations at startup
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    db.Database.Migrate(); // Creates/migrates PostgreSQL tables if not exist
+    db.Database.EnsureCreated(); // ✅ Automatically creates tables if missing (no migration needed)
 }
+
 
 // ✅ Configure middleware
 if (app.Environment.IsDevelopment())
