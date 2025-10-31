@@ -27,7 +27,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    db.Database.Migrate(); // <-- Use Migrate() instead of EnsureCreated()
+    db.Database.EnsureCreated(); // ✅ Ensures all tables exist
 }
 
 // ✅ Configure middleware
