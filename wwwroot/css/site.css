@@ -81,6 +81,21 @@ html {
   font-weight: bold;
 }
 
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
 
 .category-img {
   display: block;
